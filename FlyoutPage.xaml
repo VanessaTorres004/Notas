@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.FlyoutPage"
              Title="FlyoutPage">
+    
+    
     <ScrollView>
         <Grid Padding="10" ColumnSpacing="10" RowSpacing="10">
-           
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -15,33 +17,34 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            
+
             <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="LightBlue" CornerRadius="10">
                 <StackLayout Padding="10">
                     <Label Text="Vanessa" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-            
+
             <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="LightCoral" CornerRadius="10">
                 <StackLayout Padding="10">
                     <Label Text="Nicole" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-            
+
             <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="LightGreen" CornerRadius="10">
                 <StackLayout Padding="10">
                     <Label Text="Torres" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-            
-            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="LightGoldenrodYellow" CornerRadius="10">
+
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="GreenYellow" CornerRadius="10">
                 <StackLayout Padding="10">
                     <Label Text="Chacon" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
         </Grid>
     </ScrollView>
+        
 </ContentPage>
