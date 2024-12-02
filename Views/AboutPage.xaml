@@ -6,13 +6,25 @@
     <ContentPage.BindingContext>
         <models:About />
     </ContentPage.BindingContext>
-    <VerticalStackLayout Spacing="10" Margin="10">
-        <HorizontalStackLayout Spacing="10">
-            <Image Source="dino.png"
-            <Label FontSize="22" FontAttributes="Bold" Text= "Vanessa Torres" />
-            <Label FontSize="22" Text="Estudiante de Quinto semestre" />
-        </HorizontalStackLayout>
-    
-    </VerticalStackLayout>
 
+    <VerticalStackLayout Spacing="10" Margin="10">
+        
+        <HorizontalStackLayout Spacing="10">
+           
+            <Image Source="tony.png" />
+
+            
+            <VerticalStackLayout>
+                <Label 
+                    FontSize="22" 
+                    FontAttributes="Bold" 
+                    TextColor="BlueViolet"
+                    Text="Vanessa Torres" />
+                <Label 
+                    FontSize="22" 
+                    TextColor="Gold"
+                    Text="Tengo 20 años,soy estudiante de quinto semestre" />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
 </ContentPage>
