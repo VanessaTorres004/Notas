@@ -5,7 +5,7 @@
              Title="FlyoutPage">
     <ScrollView>
         <Grid Padding="10" ColumnSpacing="10" RowSpacing="10">
-            <!-- Configurar las columnas y filas del mosaico -->
+           
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
