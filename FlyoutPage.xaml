@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.Flayouts"
-             Title="Flayouts">
+             x:Class="Notes.Views.FlyoutPage"
+             Title="FlyoutPage">
     <ScrollView>
         <Grid Padding="10" ColumnSpacing="10" RowSpacing="10">
-
+            <!-- Configurar las columnas y filas del mosaico -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -15,31 +15,31 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-
+            
             <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="LightBlue" CornerRadius="10">
                 <StackLayout Padding="10">
-                    <Label Text="Option 1" FontSize="18" HorizontalOptions="Center" />
+                    <Label Text="Vanessa" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-
+            
             <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="LightCoral" CornerRadius="10">
                 <StackLayout Padding="10">
-                    <Label Text="Option 2" FontSize="18" HorizontalOptions="Center" />
+                    <Label Text="Nicole" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-
+            
             <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="LightGreen" CornerRadius="10">
                 <StackLayout Padding="10">
-                    <Label Text="Option 3" FontSize="18" HorizontalOptions="Center" />
+                    <Label Text="Torres" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
 
-
+            
             <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="LightGoldenrodYellow" CornerRadius="10">
                 <StackLayout Padding="10">
-                    <Label Text="Option 4" FontSize="18" HorizontalOptions="Center" />
+                    <Label Text="Chacon" FontSize="18" HorizontalOptions="Center" />
                 </StackLayout>
             </Frame>
         </Grid>

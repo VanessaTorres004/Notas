@@ -20,11 +20,12 @@
     </TabBar>
 
     
-    <FlyoutItem Title="Flyout Options" Icon="oso.png">
+    <FlyoutItem Title="Flyout Options" Icon="icon_flyout.png">
         <ShellContent
             Title="Mosaic"
-            ContentTemplate="{DataTemplate views:}" />
+            ContentTemplate="{DataTemplate views:FlyoutPage}" />
     </FlyoutItem>
 
 </Shell>
+
 
