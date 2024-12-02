@@ -7,20 +7,24 @@
     Shell.FlyoutBehavior="Flyout">
 
     
-    <FlyoutItem Title="Notas" Icon="icon_notes.png">
-       
-            <ShellContent
-                Title="Notes"
-                ContentTemplate="{DataTemplate views:AllNotesPage}"
-                Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+    <TabBar>
+        <ShellContent
+            Title="Notes"
+            ContentTemplate="{DataTemplate views:AllNotesPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
 
-            <ShellContent
-                Title="About"
-                ContentTemplate="{DataTemplate views:AboutPage}"
-                Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
-        
-    </FlyoutItem>
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate views:AboutPage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+    </TabBar>
 
     
-   
+    <FlyoutItem Title="Flyout Options" Icon="oso.png">
+        <ShellContent
+            Title="Mosaic"
+            ContentTemplate="{DataTemplate views:}" />
+    </FlyoutItem>
+
 </Shell>
+
